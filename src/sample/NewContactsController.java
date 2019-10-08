@@ -84,8 +84,6 @@ public class NewContactsController{
         contact.setEmail(emailTextField.getText());
         contact.setImage(contactImageView.getImage());
     }
-    private File file2 = new File("/home/aliya/Study/OOP/ch12/ContactsApp/src/sample/img/bug.png");
-
     @FXML
     void saveButtonPressed(ActionEvent event) throws IOException {
         if (contactChangedListener != null) {
